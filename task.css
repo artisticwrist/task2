@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+ul{
+
+
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:rgb(192, 192, 192);
+}
+li {
+    float: right;
+    
+
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+li a:hover {
+    background-color: grey;
+}
+
+h1{
+    color: white;
+    float: center;
+  background-image: url(https://cdn.pixabay.com/photo/2017/07/25/10/36/beauty-2537562_960_720.jpg);
+  height: 100%;
+  background-attachment: fixed;
+font-weight: lighter;
+background-repeat: no-repeat;
+background-size: 100%;
+padding: 250px;
+}
+.make{
+    font-size: 50px;
+font-weight: bold;
+position: absolute;
+top: 45%;
+left: 20%;
+}
+.driving{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+section{
+    position: absolute;
+    border: none;
+    right: 5%;
+    top: 70px;
+    background-color: white;
+    padding:40px;
+    width: 300px;
+    color:#8F8F8F;
+    height: 550px;
+    
+}
+h2 {
+    color: rgb(61, 60, 60);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+}
+p{
+    position: absolute;
+    left: 6.5%;
+font-size:15px ;
+}
+form{
+    position: absolute;
+    top:25%;
+    right: 2%;
+    left:5%;
+}
+
+input[type=text]{
+    color:rgb(229, 233, 234) ;
+    text-align: left;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 7px;
+    margin: 5px;
+    top:10% ;
+    border-style: solid;
+    border-color:rgb(229, 233, 234) ;
+}
+input[type=checkbox]{
+    position: absolute;
+    top: 87%;
+    right: 93.5%;
+    border-style: solid;
+    border-color: rgb(229, 233, 234) ;
+}
+.agree{
+    color:rgb(206, 210, 211);
+    font-size:12px ;
+    position: absolute;
+    right: 0%;
+}
+#lyft{
+    color:rgb(231, 182, 204) ;
+    font-weight: normal;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: 47%;
+    float:right;
+    top: 87%;
+}
+input[type=button]{
+    position: absolute;
+    top: 100%;
+    background-color: rgb(232,12,138);
+    border-bottom-style: outset ;
+    border-color: rgb(187, 100, 142);
+    border-width: 2px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    width: 100%; 
+    padding:8px;
+}
+
+.already{
+    position: absolute;
+    color:rgb(206, 210, 211);
+    font-size: 14.5px;
+    top: 115%;
+    }
+
+#status {
+    color:rgb(231, 182, 204) ;
+    position: absolute;
+    right: 1%;
+    top: 115%;
+    font-size:14.5px ;
+}
+#application {
+    color:rgb(231, 182, 204);
+    font-size: 14.5px;
+    position: absolute;
+    top: 121.5%;
+}
+footer{
+background-color: rgb(171, 176, 180) ;
+padding: 60px;
+}
+h3{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-size: 20px;
+    color: rgb(34, 42, 53);
+}
+#How {
+    font-weight: 5px;
+    position: absolute;
+    left: 10%;
+    top:89% ;
+    color: rgb(34, 42, 53) ;
+}
+input[type=tel]{
+    position: relative;
+   bottom: 10%;
+   left: 6.1%;
+   padding: 5px;
+}
+input[type=reset]{
+    position: absolute;
+    top: 92%;
+    left: 34.6%;
+    padding: 5px;
+    background-color:rgb(233, 11, 142) ;
+    border-style: solid;
+    border-color: rgb(233, 11, 142);
+    border-radius: 2px;
+    color: white;
+}
+ 
